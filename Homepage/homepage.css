@@ -28,7 +28,7 @@ body{
 
 a{
     text-decoration: none;
-    color: white;
+    /* color: black; */
 }
 
 /* .mydark{
@@ -37,7 +37,7 @@ a{
 } */
 
 .mybtn {
-    color: white ; /* White text */
+    color: white ;
     background-color: transparent;
     background-repeat: no-repeat;
     border: none;
@@ -45,6 +45,19 @@ a{
     outline: none;
     margin-left: -550%;
     margin-top: -0.5%;
+}
+
+#icon{
+    width:25%;
+    margin-left: -425%;
+    margin-top:-17%
+}
+
+#address{
+    width:25%;
+    margin-left: -400%;
+    margin-top:-23%;
+    color: white;
 }
 /* End of Header Section*/
 
@@ -199,8 +212,6 @@ select{
 
 }
 
-
-
 #quickheading0{
 
     position: absolute;
@@ -226,7 +237,7 @@ select{
     height: 280px;
     width: 24%;
     float: left;
-    box-shadow: 15px 22px 15px gray;
+    box-shadow: 10px 10px 15px gray;
 }
 
 .container0 .tileborder0:hover{
@@ -237,7 +248,6 @@ select{
 
     height:210px;
     width: 100%;
-
 }
 
 .box0 >img{
@@ -246,7 +256,6 @@ select{
     width: 100%;
     border-top-left-radius: 15%;
     border-top-right-radius: 15%;
-
 }
 
 .box1{
@@ -258,7 +267,7 @@ select{
     font-size:25px;
     font-family: Calibri;
     font-style: bold;
-    color: black;
+    /* color: black; */
 
 }
 /* End of QuickSearch Section*/
@@ -297,7 +306,7 @@ select{
     width: 35%;
     border-radius: 10%;
     display: inline-block;
-    box-shadow: 15px 20px 15px gray;
+    box-shadow: 12px 15px 15px gray;
 }
 
 .container1 .tileborder1:hover{
@@ -329,7 +338,7 @@ select{
     font-size:20px;
     font-family: Calibri;
     font-style: bold;
-    color: Black;
+    /* color: Black; */
   
 }
 

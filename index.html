@@ -14,10 +14,10 @@
         <style>
             body { 
                 background-color:white;
-                color:black
+                color:black !important;
             }
             .mydark{
-                background-color:black;
+                background-color:black ;
                 color:wheat !important;
             }
         </style>
@@ -32,10 +32,14 @@
                 <a href="#" class="btn btn-light btn-sm">Cart</a>
                 <a href="#" class="btn btn-light btn-sm">About Us</a>
                 <button class="mybtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Change Mode"  onclick="changeMode()"><i class="fa fa-lightbulb"></i></button>
+                <div class="weather">
+                    <p id="icon"></p>
+                    <p id="address"></p>
+                </p>
             </div>
-
+            </div>
         </div>
-
+        
         <!--Main Logo & Search -->
         <div id = "search">
             
@@ -207,6 +211,8 @@
               <center>&copy; EVENTO </center>
             </h3>
         </div>
-
+        <script>
+            window.onload = geolocation()
+        </script>
     </body>
 </html>

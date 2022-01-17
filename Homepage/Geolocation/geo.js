@@ -1,8 +1,3 @@
-function changeMode(){
-    var mybody = document.body;
-    mybody.classList.toggle("mydark")
-}
-
 var x = document.getElementById("out")
 var y = document.getElementById("address")
 var z = document.getElementById('icon')
