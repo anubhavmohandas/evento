@@ -1,13 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>E V E N T O</title>
-    <link href="./Homepage/homepage.css" rel="stylesheet" type="text/css">
-    <script src ="./Homepage/homepage.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-</head>
-<body>
+    <head>
 
-</body>
+      <!--Bootstrap Link-->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+      <!--CSS Link-->
+        <link href="./Homepage/homepage.css" rel="stylesheet" type="text/css"/>
+
+     <!--Font Awesome Link-->
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+        <style>
+            body { 
+                background-color:white;
+                color:black
+            }
+            .mydark{
+                background-color:black;
+                color:white
+            }
+        </style>
+    </head>
+
+    <body>
+        <!--Header Section-->
+        <div id = "header">
+            <div id="info" class="social">
+                <a href="#" class="btn btn-light btn-sm">Login</a>
+                <a href="#" class="btn btn-light btn-sm">Sign Up</a>
+                <a href="#" class="btn btn-light btn-sm">Cart</a>
+                <a href="#" class="btn btn-light btn-sm">About Us</a>
+                <button class="mybtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Change Mode"  onclick="changeMode()"><i class="fa fa-lightbulb"></i></button>
+            </div>
+
+        </div>
+
+        <!--Main Logo & Search -->
+        <div id = "search">
+            
+            <div id="logo">
+                <span>
+                    <img src="https://i.ibb.co/GHCcYvY/logo.png" height="312px" width="312px">
+                </span>
+            </div>
+
+            <div class="dropdown">
+                <select>
+                    <option>----SELECT STATE----</option>           
+                   </select>
+
+                   <select class="city">
+                    <option>----SELECT CITY----</option>
+                   </select>
+           </div>        
+
+        </div>
+
+        <!--Offers / Hot Deals-->
+        <div id="offer">
+            
+            <div id="leftbox">
+                <img src="https://i.ibb.co/9TtWrvT/1.webp" alt="loons">
+            </div>
+
+            <div id="deals">
+                 
+                <div id="slider">
+                    <figure>
+                        <img src="https://i.ibb.co/ZVq7WDM/slide1.png">
+                        <img src="https://i.ibb.co/bNhwt6f/slide2.png">
+                        <img src="https://i.ibb.co/4P9c23B/slide3.png">
+                        <img src="https://i.ibb.co/ZVq7WDM/slide1.png">
+                    </figure>
+                </div>
+
+            </div>
+
+            
+            <div id="rightbox">
+                <img src="https://i.ibb.co/wNqfwCg/balloon.gif" alt="loons">
+            </div>
+
+        </div>
+
+        <!--Quicksearch-->
+        <div id="quicksearch">
+            <span id="quickheading0">Best Of Our Essentials For Your Special Occasions</span>
+            <br>
+
+            <div class="container0">
+
+                <div class="tileborder0">
+                    <a href="">
+                        <div class="box0">
+                                <img src="https://i.ibb.co/ZVSFmJ4/promps.jpg" alt="Promps & Balloons">
+                        </div>
+                        <div class="box1">
+                            PROMPS & BALLOONS
+                        </div>
+                    </a>
+                </div>
+
+                <div class="tileborder0">
+                    <a href="F:\SRM BTECH Mechatronics\Full Stack\evento\Homepage\homepage.html">
+                        <div class="box0">
+                                <img src="https://i.ibb.co/JjsrDG2/cakes.jpg" alt="Cakes" title="">
+                        </div>
+                        <div class="box1">
+                            CAKES
+                        </div>
+                    </a>
+                </div>
+
+                <div class="tileborder0">
+                    <a href="" >
+                        <div class="box0">
+                                <img src="https://i.ibb.co/my84Z3P/Bouquets.jpg" alt="" title="">
+                        </div>
+                        <div class="box1">
+                            FLOWERS & BOUQUETS
+                        </div>
+                    </a>
+                </div>
+
+                <div class="tileborder0">
+                    <a href="">
+                        <div class="box0">
+                                <img src="https://i.ibb.co/MBTRpZb/chocolatebox.jpg" alt="" title="">
+                        </div>
+                        <div class="box1">
+                            CHOCOLATE BOXES
+                        </div>
+                    </a>
+                </div>
+
+                <div class="tileborder0">
+                    <a href="">
+                        <div class="box0">
+                                <img src="https://i.ibb.co/wYtMhRw/gifts.jpg" alt="" title="">
+                        </div>
+                        <div class="box1">
+                            GIFTS & ANTIQUES
+                        </div>
+                    </a>
+                </div>
+
+                <div class="tileborder0">
+                    <a href="">
+                        <div class="box0">
+                                <img src="https://i.ibb.co/x6tS6m6/food.jpg" alt="" title="">
+                        </div>
+                        <div class="box1">
+                            FOOD & BEVERAGES
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+
+        </div>
+
+        <!--Packages-->
+        <div id ="package">
+            
+            <div class="heading1">
+                <span id="quickheading1"> Explore  Our Exquisite Event Packages</span>
+            </div>
+            <br>
+
+            <div class="container1">
+
+                <div class="tileborder1">
+                    
+                    <a href="">
+                        <div class="box2">
+                                <img src="https://i.ibb.co/vYhrDBQ/FullPack.jpg" alt="" title="">
+                        </div>
+                        <div class="box3">
+                             ELABORATIVE PACKAGES
+                        </div>
+                    </a>
+
+
+                </div>
+
+                <div class="tileborder1">
+                    
+                    <a href="">
+                        <div class="box2">
+                                <img src="https://i.ibb.co/8zTR9vJ/Custom.jpg" alt="" title="">
+                        </div>
+                        <div class="box3">
+                            HOMELY PACKAGES
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!--JS Link-->
+        <script src="./Homepage/homepage.js"></script>
+        <!--Footer-->
+        <div id="footer">
+            <h3>
+              <center>&copy; EVENTO </center>
+            </h3>
+        </div>
+
+    </body>
 </html>

@@ -1,0 +1,346 @@
+body{
+    margin:auto;
+    background-color: white;
+}
+
+/* Start of Header Section*/
+#header {
+    height: 35px;
+    background-color: rgb(30, 38, 85)
+}
+
+#info {
+    height:30px;
+    width: 270px;
+    margin-top: 0%;
+    margin-left: 82%;
+    position: absolute;
+    /* padding-inline-end: 100px;   */
+}
+
+.social{
+    margin-right: 0%;  
+    font-family: Georgia;
+    font-style: italic;
+    font-size: 20px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* .mydark{
+    color: white;
+    background-color:black;
+} */
+
+.mybtn {
+    color: white ; /* White text */
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    overflow: hidden;
+    outline: none;
+    margin-left: -550%;
+    margin-top: -0.5%;
+}
+/* End of Header Section*/
+
+
+/* Start of Search Section*/
+#search {
+    height: 350px;
+    background-image: url('https://i.ibb.co/yg1xjWf/eventobg2.png');
+    background-size: 100% 350px;
+    
+}
+
+#logo{
+    height:190px;
+    width: 190px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 1.8%;
+    margin-left: 41%;
+    position: absolute;
+}
+
+#logo > span{
+    margin-top: -32.39%;
+    margin-left: -31%;
+    position:absolute;
+
+}
+
+.dropdown{
+    height:50px;
+    width:60%;
+    margin-left: 23.5%;
+    margin-top: 15%;
+    position: absolute;
+    color:red;
+}
+
+select{
+    height:50px;
+    width:40%;
+
+}
+
+.city-select{
+    height:50px;
+    width:35%;
+}
+
+/* End of Search Section*/
+
+
+/* Start Of Hot Offers */
+#offer{
+    height: 300px;
+    width: 100%;
+    margin-top: 1%;
+}
+
+#leftbox{
+    height: 280px;
+    width: 11%;
+    margin-top: 0.5%;
+    margin-left: 1%;
+    float: left;
+}
+
+#leftbox >img{
+    height: 290px;
+    width: 100%;
+}
+
+#deals{
+    height: 280px;
+    width: 74%;
+    margin-top: 0.5%;
+    margin-left: 1%;
+    float: left;
+}
+
+/* start of slideshow */
+
+#slider{
+    overflow: hidden;
+}
+
+#slider figure{
+    position: relative;
+    width: 500%;
+    height:280px;
+    margin: 0;
+    left: 0;
+    animation: 15s slider infinite;
+}
+
+#slider figure img{
+    float: left;
+}
+
+@keyframes slider{
+    0% {
+        left: 0;
+    }
+     20%{
+         left:0;
+     }
+     25%{
+         left: -100%;
+     }
+     45%{
+         left:-100%;
+     }
+     50%{
+         left: -200%;
+     }
+     70%{
+         left:-200%;
+     } 
+     75%{
+         left: -300%;
+     }
+     95%{
+         left: -300%;
+     }
+     100%{
+         left: -400%;
+     }
+}
+
+#rightbox{
+    height: 280px;
+    width: 11%;
+    margin-top: 0.5%;
+    float: left;
+    margin-left: 1%;
+}
+
+#rightbox >img{
+    height: 290px;
+    width: 100%;
+}
+
+/* End Of Hot Offers */
+
+
+/* Start of QuickSearch Section*/
+#quicksearch{
+    height: 720px;
+    width: 90%;
+    margin-left: 3%;
+    margin-top: 1%;
+
+}
+
+
+
+#quickheading0{
+
+    position: absolute;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    font-family: Georgia;
+    font-style: bold;
+    color:rgba(73, 47, 219, 0.808);
+    font-size: 30px;
+
+}
+
+.container0{
+
+    margin-left: 10%;
+}
+.tileborder0{
+
+    margin-top: 5%;
+    margin-left: 6%;
+    border-radius: 15%;
+    height: 280px;
+    width: 24%;
+    float: left;
+    box-shadow: 15px 22px 15px gray;
+}
+
+.container0 .tileborder0:hover{
+    transform:scale(1.1);
+}
+
+.box0{
+
+    height:210px;
+    width: 100%;
+
+}
+
+.box0 >img{
+
+    height:210px;
+    width: 100%;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+
+}
+
+.box1{
+
+    height:70px;
+    width: 100%;
+    margin-top: 4%;
+    text-align: center;
+    font-size:25px;
+    font-family: Calibri;
+    font-style: bold;
+    color: black;
+
+}
+/* End of QuickSearch Section*/
+
+
+/* Start Of Package Section */
+#package {
+    height: 380px;
+    margin-top: 2%;
+}
+
+
+
+#quickheading1{
+
+    position: absolute;
+    margin-left: 6%;
+    margin-top: 2%;
+    font-family: Georgia;
+    font-style: bold;
+    color:rgba(41, 59, 219, 0.925);
+    font-size: 30px;
+
+}
+
+.container1{
+    margin-left: 12%;
+    margin-top: 2%;
+}
+
+.tileborder1{
+
+    margin-top: 4.5%;
+    margin-left: 6%;
+    height: 210px;
+    width: 35%;
+    border-radius: 10%;
+    display: inline-block;
+    box-shadow: 15px 20px 15px gray;
+}
+
+.container1 .tileborder1:hover{
+    transform:scale(1.1);
+}
+
+.box2{
+    float: left;
+    height:210px;
+    width: 70%;
+    
+}
+
+.box2 >img{
+
+    height: 210px;
+    width: 100%;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+
+
+.box3{
+    float : left;
+    height:210px;
+    margin-top: 18%;
+    width: 30%;
+    text-align: center;
+    font-size:20px;
+    font-family: Calibri;
+    font-style: bold;
+    color: Black;
+  
+}
+
+/* End Of Package Section */
+
+
+/* Start Of Footer Section */
+#footer {
+    height: 60px;
+    margin-top: 3%;
+    color: white;
+    background-color: black;
+}
+/* End Of Footer Section */
