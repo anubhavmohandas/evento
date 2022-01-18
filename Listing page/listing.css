@@ -1,0 +1,398 @@
+body {
+    margin:auto;
+}
+
+/* Start Of Header */
+header {
+    height:68px;
+}
+
+#logo{
+    height: 60px;
+    width: 20%;
+}
+
+.icon{
+    height:60px;
+    width: 100%;
+}
+
+.dropdown{
+    height: 60px;
+    width: 50%;
+    float: left;
+    margin-left: 23%;
+    margin-top: -4%;
+}
+
+select{
+    height:50px;
+    width:40%;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.city-select{
+    height:50px;
+    width:40%;
+}
+
+#info {
+    height:50px;
+    width: 22%;
+    float: left;
+    margin-top: -3%;
+    margin-left: 77%;
+    position: absolute;
+}
+
+.social{
+    margin-right: 0%;  
+    margin-top: 2%;
+    font-family: Georgia;
+    font-style: italic;
+    font-size: 20px;
+    
+}
+
+/* End of Header */
+
+/* Start Of Main */
+#main{
+    height: 1350px;
+    display: inline-block;
+}
+
+/* Menu Bar */
+#menubar{
+    height: 30px;
+    width: 100%;
+    margin-top: 0.5%;
+    position: absolute;
+    border: 1px solid black;
+    background-color: rgb(63, 63, 228);
+}
+
+#menu{
+    margin-left: 10%;
+    display: inline-block;
+}
+
+.mbutton{
+    font-style: Bold;
+    padding-left: 3%;
+}
+
+a{
+    text-decoration: none;
+    color: white !important;
+}
+/* End of Menu Bar */
+
+/* Searching Box */
+#search{
+    height:60px;
+    width:60%;
+    position:absolute;
+    margin-top: 3%;
+    margin-left: 23%;
+    border-radius: 5%;
+    box-shadow: 1px 2px 1px grey;   
+}
+
+#slength{
+    width:100%;
+    height:60px;
+    font-size:25px;
+}
+/* End of Searching Box */
+
+/* Start of Listing page */
+#headingbox{
+    height:45px;
+    width: 60%;
+    position: absolute;
+    margin-top: 9%;
+    margin-left: 8%;
+    font-size: 25px;
+    font-style: bold;
+    font-family: georgia, arial;
+    color:rgb(128, 126, 126);
+}
+
+
+/*  Start of Filter Section */
+#filterbox{
+    height:600px;
+    width:15%;
+    position: absolute;
+    margin-top: 13%;
+    margin-left: 2%;
+    border: 1px solid grey;
+    box-shadow: 1px 0px 1px grey;
+}
+
+#fh{
+    height:35px;
+    width:90%;
+    margin-top:4%;
+    margin-left: 5%;
+}
+
+#fhc{
+    font-size:33px;
+    text-align: center;
+    margin-top: -5%;
+    margin-left: -1%;
+    color:rgb(71, 63, 63)
+}
+
+.category0{
+    height:260px;
+    width:90%;
+    margin-left:5%;
+    margin-top: 8%;
+    box-shadow: 1px 1px 1px grey;
+}
+
+#ch0{
+    height:40px;
+    width:94%;    
+    margin-left: 3%;
+    margin-top: 4%;
+    font-size:26px;
+}
+
+#chbox0{
+    height:180px;
+    width:94%;    
+    margin-left: 3%;
+    margin-top: 4%;
+}
+
+#radiobox{
+    height:195px;
+    width:88%;    
+    margin-left: 6%;
+    margin-top: 0.5%;
+}
+
+.category1{
+    height:235px;
+    width:90%;
+    margin-left:5%;
+    margin-top: 8%;
+    box-shadow: 1px 1px 1px grey;
+}
+
+#ch1{
+    height:40px;
+    width:94%;    
+    margin-left: 3%;
+    margin-top: 4%;
+    font-size:23px;
+}
+
+#chbox1{
+    height:155px;
+    width:94%;    
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+#checkbox{
+    height:165px;
+    width:88%;    
+    margin-left: 6%;
+    margin-top: 2%;
+}
+
+/*  ENd of Filter Section */
+
+/*  Start of Listing Conatiners */
+#listingsection{
+    width:79%;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 19%;
+    display: inline-block;
+}
+
+.container0{
+
+    height:330px;
+    width: 28%;
+    float: left;
+    margin-top: 4%;
+    margin-left: 4%;
+    border-radius: 10%;
+    box-shadow: 2px 5px 2px gray;
+}
+
+.box0{
+    height:240px;
+    width: 100%;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+}
+
+.box0 > img{
+    height: 253px;
+    width: 100%;
+    border-radius: 15%;
+}
+
+.box1{
+    height: 90px;
+    width: 100%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
+.rh{
+    height: 40px;
+    width: 70%;
+    margin-top:6%;
+    margin-left:7%;
+    float: left;
+    font-size: 20px;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.rating{
+    height: 25px;
+    width: 15%;
+    margin-top: -11%;
+    float: left;
+    margin-left: 82%;
+    border-radius: 15%;
+    background-color:rgb(7, 85, 7);
+}
+
+.star > img{
+    height:20px;
+    width: 45%;
+    margin-left: 53%;
+    margin-top: 1%;
+}
+
+.number{
+    font-size: 18px;
+    margin-left: 8%;
+    margin-top: -48%;
+    color: white;
+}
+
+.approx{
+    height: 30px;
+    width: 50%;
+    margin-top: -2%;
+    margin-left: 9%;
+    float: left;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:grey;
+}
+
+/* End of Listing Conatiners */
+
+/* Start Of Footer */
+#footer{
+    height:250px;
+    width:100%;
+    background-color:black;
+    display: inline-block;
+}
+
+#headerbox{
+    height:180px;
+    width: 95%;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+#logobox{
+    height:60px;
+    width: 20%;
+    margin-top: 3%;
+    margin-left: 4%; 
+}
+
+#logobox > img{
+    height:60px;
+    margin-top: -11%;
+    margin-left: -7%;
+}
+
+#hb1{
+    height:150px;
+    width:22%;
+    float: left;
+    margin-top: -2.5%;
+    margin-left: 7%;
+}
+
+.hbheading{
+    height: 45px;
+    width:60%;
+    margin-top: 1%;
+    margin-left: 8%;
+    float: left;
+}
+
+.hbhcss{
+    margin-top:2%;
+    margin-left:1%;
+    font-size:30px;
+    color:white;
+    font-family: calibri;
+}
+
+.hbbox{
+    height: 85px;
+    width:80%;
+    margin-top: 17%;
+    margin-left: 12%;
+}
+
+#hb2{
+    height:150px;
+    width:22%;
+    float: left;
+    margin-top: -2.5%;
+    margin-left: 1%;
+}
+
+#hb3{
+    height:150px;
+    width:22%;
+    float: left;
+    margin-top: -2.5%;
+    margin-left: 1%;
+}
+
+#hb4{
+    height:150px;
+    width:22%;
+    float: left;
+    margin-top: -2.5%;
+    margin-left: 1%;
+}
+
+.hbbcss{
+    font-size:15px;
+    margin-left:1%;
+    color:rgb(168, 159, 159);
+    padding-top: 2%;
+}
+
+#social {
+    float: left;
+    margin-right: 1%;
+}
+
+.si{
+    height: 30px;
+    width: 30px;
+}

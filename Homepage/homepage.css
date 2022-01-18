@@ -31,10 +31,10 @@ a{
     /* color: black; */
 }
 
-/* .mydark{
+.mydark{
     color: white;
     background-color:black;
-} */
+}
 
 .mybtn {
     color: white ;
@@ -267,7 +267,7 @@ select{
     font-size:25px;
     font-family: Calibri;
     font-style: bold;
-    /* color: black; */
+    color: black;
 
 }
 /* End of QuickSearch Section*/
@@ -346,10 +346,102 @@ select{
 
 
 /* Start Of Footer Section */
-#footer {
-    height: 60px;
+#footer{
+    height:250px;
+    width:100%;
+    background-color:black;
+    display: inline-block;
+}
+
+#headerbox{
+    height:180px;
+    width: 95%;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+#logobox{
+    height:60px;
+    width: 20%;
     margin-top: 3%;
-    color: white;
-    background-color: black;
+    margin-left: 4%; 
+}
+
+#logobox > img{
+    height:60px;
+    margin-top: -11%;
+    margin-left: -7%;
+}
+
+#hb1{
+    height:150px;
+    width:22%;
+    float: left;
+    margin-top: -2.5%;
+    margin-left: 7%;
+}
+
+.hbheading{
+    height: 45px;
+    width:60%;
+    margin-top: 1%;
+    margin-left: 8%;
+    float: left;
+}
+
+.hbhcss{
+    margin-top:2%;
+    margin-left:1%;
+    font-size:30px;
+    color:white;
+    font-family: calibri;
+}
+
+.hbbox{
+    height: 85px;
+    width:80%;
+    margin-top: 17%;
+    margin-left: 12%;
+}
+
+#hb2{
+    height:150px;
+    width:22%;
+    float: left;
+    margin-top: -2.5%;
+    margin-left: 1%;
+}
+
+#hb3{
+    height:150px;
+    width:22%;
+    float: left;
+    margin-top: -2.5%;
+    margin-left: 1%;
+}
+
+#hb4{
+    height:150px;
+    width:22%;
+    float: left;
+    margin-top: -2.5%;
+    margin-left: 1%;
+}
+
+.hbbcss{
+    font-size:15px;
+    margin-left:1%;
+    color:rgb(168, 159, 159);
+    padding-top: 2%;
+}
+
+#social {
+    float: left;
+    margin-right: 1%;
+}
+
+.si{
+    height: 30px;
+    width: 30px;
 }
 /* End Of Footer Section */
