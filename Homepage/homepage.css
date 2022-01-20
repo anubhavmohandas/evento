@@ -28,12 +28,7 @@ body{
 
 a{
     text-decoration: none;
-    /* color: black; */
-}
-
-.mydark{
     color: white;
-    background-color:black;
 }
 
 .mybtn {
@@ -45,6 +40,11 @@ a{
     outline: none;
     margin-left: -550%;
     margin-top: -0.5%;
+}
+
+.mydark{
+    color: white;
+    background-color:black;
 }
 
 #icon{
@@ -63,6 +63,8 @@ a{
 
 
 /* Start of Search Section*/
+
+
 #search {
     height: 350px;
     background-image: url('https://i.ibb.co/yg1xjWf/eventobg2.png');
@@ -212,6 +214,8 @@ select{
 
 }
 
+
+
 #quickheading0{
 
     position: absolute;
@@ -237,7 +241,7 @@ select{
     height: 280px;
     width: 24%;
     float: left;
-    box-shadow: 10px 10px 15px gray;
+    box-shadow: 15px 22px 15px gray;
 }
 
 .container0 .tileborder0:hover{
@@ -248,6 +252,7 @@ select{
 
     height:210px;
     width: 100%;
+
 }
 
 .box0 >img{
@@ -256,6 +261,7 @@ select{
     width: 100%;
     border-top-left-radius: 15%;
     border-top-right-radius: 15%;
+
 }
 
 .box1{
@@ -306,7 +312,7 @@ select{
     width: 35%;
     border-radius: 10%;
     display: inline-block;
-    box-shadow: 12px 15px 15px gray;
+    box-shadow: 15px 20px 15px gray;
 }
 
 .container1 .tileborder1:hover{
@@ -338,7 +344,7 @@ select{
     font-size:20px;
     font-family: Calibri;
     font-style: bold;
-    /* color: Black; */
+    color: Black;
   
 }
 
@@ -346,6 +352,7 @@ select{
 
 
 /* Start Of Footer Section */
+/* Start Of Footer */
 #footer{
     height:250px;
     width:100%;
