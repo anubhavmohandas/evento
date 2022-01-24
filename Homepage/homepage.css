@@ -3,6 +3,23 @@ body{
     background-color: white;
 }
 
+a:link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:visited {
+    color: black;
+  }
+  
+  a:hover {
+    color: black;
+  }
+  
+  a:active {
+    color: black;
+  }
+
 /* Start of Header Section*/
 #header {
     height: 35px;
@@ -42,16 +59,33 @@ a{
     margin-top: -0.5%;
 }
 
-.mydark{
+.mydark {
     color: white;
-    background-color:black;
-}
-/* 
-.mydark{
+    background-color: black;
+  }
+  
+  .mydark a {
     color: white;
-    background-color:black;
-} */
-
+  }
+  
+  .mydark a:visited {
+    color: white;
+  }
+  
+  .mydark a:active {
+    color: white;
+  }
+  
+  .mybtn {
+    color: white; /* White text */
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    overflow: hidden;
+    outline: none;
+    margin-left: -550%;
+    margin-top: -0.5%;
+  }
 #icon{
     width:25%;
     margin-left: -425%;
