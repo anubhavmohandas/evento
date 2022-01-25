@@ -1,7 +1,5 @@
 function changeMode(){
     var mybody = document.body;
-    // var a = document.getElementsByClassName("box1")
-    // a.classList.toggle("mydark")
     mybody.classList.toggle("mydark")
 }
 
