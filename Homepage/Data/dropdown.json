@@ -173,5 +173,13 @@
         "state_name": "West Bengal",
         "state": 29
       }
+    ],
+
+    "districts":[
+        {
+            "_id": "1",
+            "district_name": "",
+            "state": "1"
+        }
     ]
 }
