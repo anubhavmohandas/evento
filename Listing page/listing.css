@@ -40,21 +40,16 @@ select{
 
 #info {
     height:50px;
-    width: 22%;
+    width: 30%;
     float: left;
     margin-top: -3%;
     margin-left: 77%;
     position: absolute;
-}
-
-.social{
-    margin-right: 0%;  
-    margin-top: 2%;
     font-family: Georgia;
     font-style: italic;
     font-size: 20px;
-    
 }
+
 
 /* End of Header */
 
@@ -126,7 +121,7 @@ a{
 
 /*  Start of Filter Section */
 #filterbox{
-    height:600px;
+    height:640px;
     width:15%;
     position: absolute;
     margin-top: 13%;
@@ -151,7 +146,7 @@ a{
 }
 
 .category0{
-    height:260px;
+    height:300px;
     width:90%;
     margin-left:5%;
     margin-top: 8%;
@@ -400,42 +395,15 @@ a{
     width: 30px;
 }
 
+@media screen and (max-width:1440px){
+    .rh{
+        font-size: 18px;
+    }
+}
 
-/* @media screen and (max-width:1520px){
-    #main {
-        margin-left: -73%;
-    }
-} */
 
-/* @media screen and (max-width:1520px){
-    
-    .dropdown{
-        height: 58px;
-        width: 48%;
-        margin-left: 23%;
-        margin-top: -4%;
-    }
-    
-    select{
-        height:48px;
-        width:38%;
-        margin-left: 1%;
-        margin-top: 1%;
-    }
-    
-    .city-select{
-        height:48px;
-        width:38%;
-    }
-    
-    #info {
-        height:48px;
-        width: 21%;
-        margin-top: -3%;
+@media screen and (max-width:1400px){
+    #info{
         margin-left: 74%;
     }
-    
-    .social{ 
-        margin-top: 2%;
-    }
-} */
+}
