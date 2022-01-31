@@ -61,6 +61,7 @@ select{
 #main{
     height: 1350px;
     display: inline-block;
+    margin-left:0%;
 }
 
 /* Menu Bar */
@@ -75,7 +76,7 @@ select{
 
 #menu{
     margin-left: 10%;
-    display: inline-block;
+    float: left;
 }
 
 .mbutton{
@@ -207,10 +208,10 @@ a{
     margin-top: 2%;
 }
 
-/*  ENd of Filter Section */
+/*  End of Filter Section */
 
 /*  Start of Listing Conatiners */
-#listingsection{
+.container{
     width:79%;
     position: absolute;
     margin-top: 10%;
@@ -396,3 +397,43 @@ a{
     height: 30px;
     width: 30px;
 }
+
+
+/* @media screen and (max-width:1520px){
+    #main {
+        margin-left: -73%;
+    }
+} */
+
+/* @media screen and (max-width:1520px){
+    
+    .dropdown{
+        height: 58px;
+        width: 48%;
+        margin-left: 23%;
+        margin-top: -4%;
+    }
+    
+    select{
+        height:48px;
+        width:38%;
+        margin-left: 1%;
+        margin-top: 1%;
+    }
+    
+    .city-select{
+        height:48px;
+        width:38%;
+    }
+    
+    #info {
+        height:48px;
+        width: 21%;
+        margin-top: -3%;
+        margin-left: 74%;
+    }
+    
+    .social{ 
+        margin-top: 2%;
+    }
+} */
