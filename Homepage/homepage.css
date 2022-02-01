@@ -371,7 +371,7 @@ select{
     font-size:20px;
     font-family: Calibri;
     font-style: bold;
-    color: Black;
+    /* color: Black; */
 }
 
 /* End Of Package Section */
@@ -425,7 +425,7 @@ select{
     margin-top:2%;
     margin-left:1%;
     font-size:30px;
-    color:white;
+    /* color:white; */
     font-family: calibri;
 }
 
@@ -434,6 +434,7 @@ select{
     width:80%;
     margin-top: 17%;
     margin-left: 12%;
+    color:white;
 }
 
 #hb2{
