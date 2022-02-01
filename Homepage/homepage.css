@@ -240,14 +240,12 @@ select{
 
 
 /* Start of QuickSearch Section*/
-#quicksearch{
+#Quicksearch{
     height: 720px;
     width: 90%;
     margin-left: 3%;
     margin-top: 1%;
 }
-
-
 
 #quickheading0{
 
@@ -263,16 +261,16 @@ select{
 }
 
 .container0{
-    margin-left: 10%;
-}
 
+    margin-left: 2%;
+}
 .tileborder0{
 
     margin-top: 5%;
-    margin-left: 6%;
+    margin-left: 5%;
     border-radius: 15%;
     height: 280px;
-    width: 24%;
+    width: 20%;
     float: left;
     box-shadow: 15px 22px 15px gray;
 }
@@ -281,28 +279,34 @@ select{
     transform:scale(1.1);
 }
 
-.box0 {
-    height: 210px;
+.box0{
+
+    height:210px;
     width: 100%;
-  }
-  
-  .box0 > img {
-    height: 210px;
+
+}
+
+.box0 >img{
+
+    height:210px;
     width: 100%;
     border-top-left-radius: 15%;
     border-top-right-radius: 15%;
-  }
-  
-  .box1 {
-    height: 70px;
+
+}
+
+.box1{
+
+    height:70px;
     width: 100%;
     margin-top: 4%;
     text-align: center;
-    font-size: 25px;
+    font-size:25px;
     font-family: Calibri;
     font-style: bold;
     /* color: black; */
-  }
+
+}
 /* End of QuickSearch Section*/
 
 
