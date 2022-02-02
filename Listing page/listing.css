@@ -40,11 +40,11 @@ select{
 
 #info {
     height:50px;
-    width: 30%;
-    float: left;
+    width: 23%;
+    float: right;
     margin-top: -3%;
-    margin-left: 77%;
-    position: absolute;
+    margin-left: 0%;
+    /* position: absolute; */
     font-family: Georgia;
     font-style: italic;
     font-size: 20px;
