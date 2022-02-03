@@ -1,0 +1,39 @@
+body{
+    margin:auto;
+    background:white;
+}
+
+#header {
+    height: 7%;
+    background-color: white;
+}
+
+.zomato{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 45px;
+    /* font-family: Copperplate, Papyrus, fantasy; */
+    text-transform: lowercase;
+    margin-top: -10px;
+    margin-bottom:5px;
+    text-decoration: none;
+}
+
+
+.zomato a{
+    text-decoration: none;
+    color:black;
+}
+
+.heading {
+    float: right;
+    margin-top: -3%;
+    margin-right: 5%;
+    text-decoration: none;
+}
+
+.text-dark > a{
+    text-decoration: none;
+    color:black;
+
+}
