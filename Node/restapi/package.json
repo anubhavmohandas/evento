@@ -7,8 +7,8 @@
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
-  "keywords": "Anubhav Mohandas",
-  "author": "",
+  "keywords": [],
+  "author": "Anubhav Mohandas",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.2",
