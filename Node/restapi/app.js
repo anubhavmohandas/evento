@@ -82,6 +82,8 @@ app.post('/placeOrder', (req, res) => {
     })
 })
 
+/* */
+
 /* Delete Orders */
 app.delete('/deleteOrder', (req, res) => {
     db.collection('order').remove({}, (err, result)  =>{
