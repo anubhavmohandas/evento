@@ -100,7 +100,6 @@
         "average_rating": 4.5,
         "rating_text": "Very Good",
         "cost": 140,
-        "contact_number": "3496508401",
         "category_type":[
             {
                 "category_id": 4,
@@ -116,7 +115,6 @@
         "average_rating": 4.1,
         "rating_text": "Good",
         "cost": 90,
-        "contact_number": "3476347401",
         "category_type":[
             {
                 "category_id": 4,
@@ -132,7 +130,6 @@
         "average_rating": 4.5,
         "rating_text": "Very Good",
         "cost": 40,
-        "contact_number": "8731537554",
         "category_type":[
             {
                 "category_id": 5,
@@ -148,7 +145,6 @@
         "average_rating": 4.1,
         "rating_text": "Good",
         "cost": 70,
-        "contact_number": "8731876754",
         "category_type":[
             {
                 "category_id": 5,
@@ -164,7 +160,6 @@
         "average_rating": 4,
         "rating_text": "Very Good",
         "cost": 500,
-        "contact_number": "1233766534",
         "category_type":[
             {
                 "category_id": 6,
