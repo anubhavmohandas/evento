@@ -19,37 +19,41 @@ header {
 
 .dropdown{
     height: 60px;
-    width: 40%;
-    display: inline-block;
+    width: 50%;
+    float: left;
     margin-left: 23%;
     margin-top: -4%;
 }
 
 select{
     height:50px;
-    width:49%;
+    width:40%;
     margin-left: 1%;
     margin-top: 1%;
-    float: left;
 }
-/* 
+
 .city-select{
     height:50px;
     width:40%;
-} */
+}
 
 #info {
     height:50px;
-    width: 23%;
-    float: right;
+    width: 22%;
+    float: left;
     margin-top: -3%;
-    margin-left: 0%;
-    /* position: absolute; */
+    margin-left: 77%;
+    position: absolute;
+}
+
+.social{
+    margin-right: 0%;  
+    margin-top: 2%;
     font-family: Georgia;
     font-style: italic;
     font-size: 20px;
+    
 }
-
 
 /* End of Header */
 
@@ -58,7 +62,6 @@ select{
     height: 1350px;
     display: inline-block;
     margin-left:0%;
-    width: 100%;
 }
 
 /* Menu Bar */
@@ -74,11 +77,12 @@ select{
 #menu{
     margin-left: 10%;
     float: left;
+    width: 90%;
 }
 
 .mbutton{
     font-style: Bold;
-    padding-left: 3%;
+    padding-left: 2%;
 }
 
 a{
@@ -121,7 +125,7 @@ a{
 
 /*  Start of Filter Section */
 #filterbox{
-    height:640px;
+    height:650px;
     width:15%;
     position: absolute;
     margin-top: 13%;
@@ -205,10 +209,10 @@ a{
     margin-top: 2%;
 }
 
-/*  End of Filter Section */
+/*  ENd of Filter Section */
 
 /*  Start of Listing Conatiners */
-.container{
+#listingsection{
     width:79%;
     position: absolute;
     margin-top: 10%;
@@ -267,6 +271,9 @@ a{
     border-radius: 15%;
     background-color:rgb(7, 85, 7);
 }
+
+/* .star{
+} */
 
 .star > img{
     height:20px;
@@ -395,15 +402,42 @@ a{
     width: 30px;
 }
 
-@media screen and (max-width:1440px){
-    .rh{
-        font-size: 18px;
+
+@media screen and (max-width:1520px){
+    #main {
+        margin-left: -73%;
     }
 }
 
-
-@media screen and (max-width:1400px){
-    #info{
+@media screen and (max-width:1520px){
+    
+    .dropdown{
+        height: 58px;
+        width: 48%;
+        margin-left: 23%;
+        margin-top: -4%;
+    }
+    
+    select{
+        height:48px;
+        width:38%;
+        margin-left: 1%;
+        margin-top: 1%;
+    }
+    
+    .city-select{
+        height:48px;
+        width:38%;
+    }
+    
+    #info {
+        height:48px;
+        width: 21%;
+        margin-top: -3%;
         margin-left: 74%;
+    }
+    
+    .social{ 
+        margin-top: 2%;
     }
 }
